@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+h3 {
+    width: 100%;
+    background-color: #1CD1B0;
+    padding: 20px;
+}
+.titulo {
+    background-color: #00669F;
+    width: 100%;
+    padding: 35px;
+    position: fixed;
+}
+body {
+    display: block;
+}
+#columnas {
+    width: 100%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    overflow: hidden;
+    display: block;
+}
+.card {
+    float: left;
+    width: 20%;
+    height: 600px;
+    margin: 10px 10px;
+    background-color: #F3F3F3;
+    position: relative;
+    left: 350px;
+    border: #F3F3F3;
+    box-shadow: 10px 5px rgb(209, 208, 208);
+}
+.card-back {
+    width: 100%;
+    position: relative;
+    bottom: 40px;
+}
+.card-profile {
+    width: 35%;
+    border-radius: 100%;
+    position: relative;
+    bottom: 100px;
+    left: 120px;
+}
+.corazon {
+position: relative;
+color: brown;
+top: 5px;
+z-index: 10;
+left: 5px;
+}
+.card-title {
+    text-align: center;
+    font-size:xx-large;
+    position: relative;
+    bottom: 50px;
+}
+.texto {
+    text-align: left;
+    margin: 5px; 
+}
+.vermas {
+    background-color: #00669F;
+    width: 25%;
+    text-align: center;
+    color: #FFF9F9;
+    position: relative;
+    left: 125px;
+    top: 50px;
+    padding: 15px 5px
+}
+footer {
+    width: 100%;
+    background-color: #00669F;
+    padding: 20px;
+    color:#FFF9F9
+}
