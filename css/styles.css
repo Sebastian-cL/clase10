@@ -63,7 +63,9 @@ left: 5px;
 }
 .texto {
     text-align: left;
-    margin: 5px; 
+    margin: 5px;
+    position: relative; 
+    bottom: 30px;
 }
 .vermas {
     background-color: #00669F;
@@ -71,8 +73,8 @@ left: 5px;
     text-align: center;
     color: #FFF9F9;
     position: relative;
-    left: 125px;
-    top: 50px;
+    left: 150px;
+    top: 20px;
     padding: 15px 5px
 }
 footer {
